@@ -1,0 +1,6 @@
+base:
+  env:dev
+
+env:
+     dev: "https://jsonplaceholder.typicode.com"
+     test: "https://dummyjson.com"

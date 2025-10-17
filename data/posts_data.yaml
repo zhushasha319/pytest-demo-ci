@@ -1,0 +1,9 @@
+- title: "pytest test 1"
+  body: "body content 1"
+  userId: 1
+  status_code: 201
+
+- title: "pytest test 2"
+  body: "body content 2"
+  userId: 2
+  status_code: 201

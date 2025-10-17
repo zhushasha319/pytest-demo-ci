@@ -1,0 +1,21 @@
+[2025-10-17 20:21:24,186] [INFO] 🔑 开始执行登录前置操作
+[2025-10-17 20:21:26,002] [INFO] 请求开始: [POST] https://jsonplaceholder.typicode.com/posts
+[2025-10-17 20:21:26,002] [INFO] 请求体: {'title': 'pytest test 1', 'body': 'body content 1', 'userId': 1}
+[2025-10-17 20:21:27,356] [INFO] 响应状态码: 201
+[2025-10-17 20:21:27,356] [INFO] 响应内容: {
+  "title": "pytest test 1",
+  "body": "body content 1",
+  "userId": 1,
+  "id": 101
+}
+[2025-10-17 20:21:27,357] [INFO] ✅ 断言通过: 状态码 = 201
+[2025-10-17 20:21:27,362] [INFO] 请求开始: [POST] https://jsonplaceholder.typicode.com/posts
+[2025-10-17 20:21:27,362] [INFO] 请求体: {'title': 'pytest test 2', 'body': 'body content 2', 'userId': 2}
+[2025-10-17 20:21:28,117] [INFO] 响应状态码: 201
+[2025-10-17 20:21:28,117] [INFO] 响应内容: {
+  "title": "pytest test 2",
+  "body": "body content 2",
+  "userId": 2,
+  "id": 101
+}
+[2025-10-17 20:21:28,117] [INFO] ✅ 断言通过: 状态码 = 201

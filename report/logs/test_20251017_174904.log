@@ -1,0 +1,20 @@
+[2025-10-17 17:49:16,945] [INFO] 请求开始: [POST] https://jsonplaceholder.typicode.com/posts
+[2025-10-17 17:49:16,946] [INFO] 请求体: {'title': 'pytest test 1', 'body': 'body content 1', 'userId': 1}
+[2025-10-17 17:49:25,745] [INFO] 响应状态码: 201
+[2025-10-17 17:49:25,746] [INFO] 响应内容: {
+  "title": "pytest test 1",
+  "body": "body content 1",
+  "userId": 1,
+  "id": 101
+}
+[2025-10-17 17:49:25,747] [INFO] ✅ 断言通过: 状态码 = 201
+[2025-10-17 17:49:25,754] [INFO] 请求开始: [POST] https://jsonplaceholder.typicode.com/posts
+[2025-10-17 17:49:25,754] [INFO] 请求体: {'title': 'pytest test 2', 'body': 'body content 2', 'userId': 2}
+[2025-10-17 17:49:33,519] [INFO] 响应状态码: 201
+[2025-10-17 17:49:33,520] [INFO] 响应内容: {
+  "title": "pytest test 2",
+  "body": "body content 2",
+  "userId": 2,
+  "id": 101
+}
+[2025-10-17 17:49:33,520] [INFO] ✅ 断言通过: 状态码 = 201
